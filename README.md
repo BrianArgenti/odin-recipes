@@ -1,1 +1,2 @@
 # odin-recipes
+This repository was created in order to fulfill the lesson from The Odin Project titled "Recipes" in the foundations course. It is a lesson in HTML and aims to put to practice the knowledge acquired from previous lessons. The project is a basic recipe website that includes a main index page with links to recipes. This is purely a functional check exercise and design has not (at the time of writing this) been included. 
