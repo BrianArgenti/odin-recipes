@@ -2,20 +2,24 @@
     background-color: lightpink;
 }
 
-.banner,
 img {
     padding: 10px;
-    display: inline-flex;
+    display: inline;
     margin: 0 auto;
     vertical-align: middle;
-    width: 300px;
+    max-width: 300px;
     height: auto;
 }
 
+a {
+    margin: 0 auto;
+    display: block; 
+}
 
 h1 {
     color: rgb(243, 74, 100);
     background-color: white;
+    font-size: 64pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 
@@ -24,12 +28,15 @@ h1 {
 ul {
     padding: 0 50px;
     margin: 0 auto;
-    display: inline-block;   
+    display: inline;
+    vertical-align: middle;
+   
 }
 
-.list-items {
+.items {
     padding: 10px;
     margin: 0 auto;
+    display: inline;
     text-align: center;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
@@ -55,4 +62,5 @@ ul {
 button {
     padding: 10px;
     font-size: 24px;
+    box-shadow: 5px 5px rgba(80, 27, 35, 75);
 }
